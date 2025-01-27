@@ -32,7 +32,7 @@ Write-Output "Build: $windowsBuild"
 $apiUrl = "https://vulners.com/api/v3/search/lucene/"
 
 # Your Vulners API key
-$apiKey = "424WYGNTT7IP8T8U58BTN5TVBLJXAKZKULML9NTEUQ80D2RGY7A2Q746TH22VA1Q"
+$apiKey = "YOUR_API-KEY"
 
 # Use the windowsName dynamically in the search query
 $searchQuery = "$windowsName AND CVE"  # Search for CVEs specific to the Windows version
